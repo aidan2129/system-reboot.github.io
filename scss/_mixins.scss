@@ -1,1 +1,14 @@
 //  Mixins
+
+.flex-cloumn{
+    flex-direction: "column";
+}
+
+.vertical-align{
+    justify-content: "center";
+}
+
+.fab{
+    font-size:1.5em;
+    color:#E82C0C;
+}

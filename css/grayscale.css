@@ -4,6 +4,24 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+.flex-cloumn {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: "column";
+  flex-direction: "column";
+}
+
+.vertical-align {
+  -webkit-box-pack: "center";
+  -ms-flex-pack: "center";
+  justify-content: "center";
+}
+
+.fab {
+  font-size: 1.5em;
+  color: #E82C0C;
+}
+
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -92,7 +110,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-masthead.png");
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-masthead.png");
   background-position: center;
   background-repeat: no-repeat;
